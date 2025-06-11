@@ -10,7 +10,7 @@ const JobContextProvider = ({ children }) => {
     title: '',
     location: '',
     type: '',
-    salary: '',
+    salary: null,
   });
   const [issearched, setIssearched] = useState(false);
   const [jobs, setJobs] = useState([]);

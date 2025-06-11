@@ -58,11 +58,11 @@ const Joblisting = () => {
       );
     }
 
-    if (searchFilter.salary) {
-      result = result.filter((job) =>
-        job.salary.toLowerCase().includes(searchFilter.salary.toLowerCase()),
-      );
-    }
+    // if (searchFilter.salary) {
+    //   result = result.filter((job) =>
+    //     job.salary.toLowerCase().includes(searchFilter.salary.toLowerCase()),
+    //   );
+    // }
 
     setFilteredJobs(result);
     setCurrentPage(1);
